@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Escapement" />
+    <meta name="theme-color" content="#0B1020" />
+    <meta
+      name="description"
+      content="Offline horological one-thumb action roguelike inside a collapsing grand timepiece."
+    />
+    <title>Escapement</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon-180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="Escapement arena"></canvas>
+      <div id="hud-layer" class="hud-layer hidden" aria-live="polite"></div>
+      <div id="overlay-layer" class="overlay-layer"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
